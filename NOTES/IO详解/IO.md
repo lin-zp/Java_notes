@@ -87,22 +87,40 @@ System.out.println(file3);
 
 定义了java**流式字节输入模式**的抽象类，该类所有方法在出错条件下抛出IOException异常，主要方法如下
 
-![image-20210906103620505](D:\597\JAVA\src\InputStream.png)
+![image-20210906103620505](D:\597\Java_notes\src\InputStream.png)
 
 #### OutputStream
 
 定义了java**流式字节输出模式**的抽象类，该类所有方法返回一个void值，并且在出错条件下抛出IOException异常，主要方法如下
 
-![image-20210906103909865](D:\597\JAVA\src\OutputStream.png)
+![image-20210906103909865](D:\597\Java_notes\src\OutputStream.png)
 
 #### Reader
 
 定义了java**流式字符输入模式**的抽象类，该类所有方法在出错条件下抛出IOException异常，主要方法如下
 
-![image-20210906111016649](D:\597\JAVA\src\Reader.png)
+![image-20210906111016649](D:\597\Java_notes\src\Reader.png)
 
 **Writer类**
 
 定义了java**流式字符输出模式**的抽象类，该类所有方法返回一个void值，并且在出错条件下抛出IOException异常，主要方法如下
 
-![image-20210906111104304](D:\597\JAVA\src\Writer.png)
+![image-20210906111104304](D:\597\Java_notes\src\Writer.png)
+
+#### InputStream及其子类
+
+FileInputStream 文件输入流：
+
+ByteArrayInputStream 字节数组输入流：
+
+PipedInputStream 管道输入流：
+
+SequenceInputStream 顺序输入流：
+
+FilterOutputStream 过滤输入流：
+
+ObjectInputStream 反序列化输入流：
+
+DataInputStream 
+
+PushbackInputStream 推回输入流：
